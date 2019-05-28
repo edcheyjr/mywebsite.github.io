@@ -1,0 +1,43 @@
+.bgimg{
+    background-image: url("../img/concert-1149805_960_720.jpg");
+    background-color: black;
+    color: white;
+}
+.indexbg{
+    background-image: url("../img/music-concert-fans-applauding-light.jpg");
+    color: white;
+}
+
+.menu:hover{
+    color: #212529;
+    background-color: #e0a800;
+    text-decoration: underline;
+}
+.menu:focus,.menu:focus {
+    box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+}
+.btn-outline-warning.disabled, .btn-outline-warning:disabled {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.menu.disabled, .menu:disabled {
+    color: #212529;
+    background-color: #ffc107;}
+.bgcolor{
+    background-color: black;
+    color: white;
+}
+.font{
+    font-size-adjust: unset;
+}
+.news:hover{
+    background-image: url("../img/music-concert-fans-applauding-light.jpg");
+    max-width: 100%;
+    height: auto;
+    color: black;
+}
+.video{
+    width: 100%;
+    height: auto;
+}

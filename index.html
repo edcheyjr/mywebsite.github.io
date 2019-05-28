@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en>">
+<head>
+    <meta charset="UTF-8">
+    <title>mymusic/homepage </title>
+    <link rel="stylesheet" href="css/mymusic.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body class="bgimg" data-type=".navbar" style="font-family: 'Orator Std'">
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark border border-top-0 border-right-0 border-left-0 border-warning fixed-top" >
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item col-md-auto ">
+                <a href="index.html" class="menu nav nav-link text-white active">HOME</a>
+            </li>
+            <li class="nav-item col-md-auto">
+                <a href="about.html" class="menu nav na nav-link text-white">ABOUT</a>
+            </li>
+            <li class=" nav-item col-md-auto ">
+                <a href="news.html" class="menu nav nav-link text-white " >NEWS</a>
+            </li>
+            <li class="nav-item col-md-auto">
+                <a href="join.html" class="menu nav nav-link text-white">JOIN</a>
+            </li>
+            <li class="nav-item col-md-auto">
+                <a href="advertise.html" class="menu nav nav-link text-white">ADVERTISE</a>
+            </li>
+            <li class="nav-item col-md-auto">
+                <a href="contact.html" class="menu nav nav-link text-white"> CONTACTS </a>
+            </li>
+            <div class="">
+                <a class="navbar-brand float-right" href="#">Brand logo</a>
+            </div>
+
+        </ul>
+    </nav>
+</header>
+<span>
+    <br><br>
+</span>
+<!--two rows on for login and the other of join-->
+<div  class=" container-fluid ">
+    <div class="row">
+        <div class="col-md-6 container">
+            <div class="jumbotron bg-transparent">
+                <div class="card border-white bg-transparent">
+                    <div class="card-body">
+                        <p style="font-family: Arial" class="align-content-center">
+                        <h2 class="text-warning">
+                            Get royalities for your music for <strong>every view!</strong>
+                        </h2>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button " data-toggle="modal" data-target="#login" class="btn col-md-3 btn-outline-light"> LOGIN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 container ">
+            <div class="jumbotron bg-transparent border-warning">
+                <div class="card border-warning bg-transparent">
+                    <div class="card card-footer">
+                        <h2 >
+                            Join this community.Expose your talent your music over EastAfrica, Africa and Worldwide.
+                            Take entertainment to the next level.
+                        </h2>
+                    </div>
+                    <div class="card card-footer ">
+                        <button type="button" class="col-md-3 btn btn-outline-warning"><a href="join.html" class="text-warning">JOIN</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--popup login-->
+    <div class="modal " id="login">
+        <div class="modal-dialog col-md-auto">
+            <div class="modal-content bg-dark border-warning border-left-0">
+                <div class="modal-header border-warning justify-content-lg-center">
+                    <h3 class="modal-title" style="font-family: 'Orator Std'">
+                        LOGIN
+                    </h3>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-auto">
+                        <h2 class="text-center mb-4 text-warning">My music</h2>
+                        <div class="row">
+                            <!--form card login-->
+                            <div class="card rounded-0 bg-transparent border-white">
+                                <div class="card-header border-warning border-bottom-0 ">
+                                    <div class="card-body">
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <label for="username" class="text-warning">USERNAME/EMAIL</label>
+                                                <input  type="email"  type="text" style="font-family: 'Droid Sans'" class="form-control-lg rounded-0 text-white bg-transparent border-warning" name="email" name="username" id="username" >
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password" class="text-warning">PASSWORD</label>
+                                                <input type="password" class="form-control-lg rounded-0 bg-transparent border-warning text-white" name="password" id="password">
+                                            </div>
+                                            <div class="float-right">
+                                                <span><a class="text-warning"href="#">FORGOT PASSWORD</a></span>
+                                            </div>
+                                            <br>
+                                            <div >&nbsp;&nbsp;
+                                                <label class="float-right custom-control custom-checkbox"></label>
+                                                <input type="checkbox"class=" border-warning bg-transparent">
+                                                <span class="custom-control-label small text-warning">remember me</span>
+                                            </div>
+                                            <button type="submit" class="btn btn-outline-warning col-md-3 float-right">
+                                                <a href="menu.html" class="text-warning">login</a></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="col-md-3 btn btn-outline-warning" data-dismiss="modal">CLOSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="fixed-bottom">
+    <div class="card-footer border-warning bgcolor">
+        <div >
+            <ul class="list-inline">
+                <li class="list-inline-item "><a href="https://www.instagram.com/e.d.c.h.e.y_jr/" class="text-warning">INSTAGRAM</a></li>
+                <li class="list-inline-item"><a href="https://web.facebook.com/?ref=tn_tnmn&_rdc=1&_rdr" class="text-warning">FACEBOOK</a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/" class="text-warning">TWITTER</a></li>
+            </ul>
+
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
